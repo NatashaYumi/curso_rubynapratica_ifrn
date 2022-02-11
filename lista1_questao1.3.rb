@@ -1,7 +1,7 @@
 # Crie um script em Ruby que leia dois números inteiros e mostre a soma dos dois.
-puts "Informe o primeiro número e pressione ENTER"
+print "Informe o primeiro número: "
 inteiro_um = gets.chomp.to_i
-puts "Informe o segundo número e pressione ENTER"
+print "Informe o segundo número: "
 inteiro_dois = gets.chomp.to_i
 
 puts "#{inteiro_um} + #{inteiro_dois} = #{inteiro_um + inteiro_dois}"
